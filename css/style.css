@@ -20,14 +20,14 @@ body {
 	font-family: Arial, sans-serif;
 }
 input {
-width: 80%;
-height: 100%;
-color: #C2C2C2;
-font-size: 110px;
-margin-left: 25px;
-font-weight: bold;
-border: none;
-background-color: transparent;
+	width: 80%;
+	height: 100%;
+	color: #C2C2C2;
+	font-size: 110px;
+	margin-left: 25px;
+	font-weight: bold;
+	border: none;
+	background-color: transparent;
 }
 input[type="text"]:focus { outline: none; }
 
@@ -36,6 +36,7 @@ main h3 {
 	font-weight: bold;
 	margin-left: 20px;
 	margin-top: 30px;
+	color: #C2C2C2;
 }
 
 button:focus { outline: none;}
@@ -51,13 +52,13 @@ button:focus { outline: none;}
 	/*background-color: red;*/
 }
 .search{
-background-color: transparent;
-    background-image: url(../img/magnifier.svg);
-    width: 85px;
-    height: 85px;
-    border: none;
-    position: relative;
-    right:-60px
+	background-color: transparent;
+	background-image: url(../img/magnifier.svg);
+	width: 85px;
+	height: 85px;
+	border: none;
+	position: relative;
+	right:-60px
 }
 .post-block {
 	margin-top: 0;
@@ -80,7 +81,7 @@ background-color: transparent;
 	background-color: #E4E4E6;
 }
 .item:hover a {
-color: #D66C6E;
+	color: #D66C6E;
 }
 .item img,
 .item a {
