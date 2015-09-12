@@ -29,7 +29,10 @@ input {
 	border: none;
 	background-color: transparent;
 }
-input[type="text"]:focus { outline: none; }
+input[type="text"]:focus {
+	outline: none;
+	color:#ec5a62;
+}
 
 main h3 {
 	font-size: 18px;
